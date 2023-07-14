@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Verifikasi Email</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      width: 150px;
+      border: 2px solid #007bff;
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .code {
+      font-size: 36px;
+      font-weight: bold;
+      color: #00cc99;
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+
+    .footer {
+      font-size: 14px;
+      color: #888;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://reza172.000webhostapp.com/logo.png" alt="Company Logo">
+    </div>
+    <h1>Verifikasi Email</h1>
+    <p>Halo,</p>
+    <p>Terima kasih telah mendaftar di layanan kami. Untuk melengkapi proses pendaftaran, kami telah mengirimkan kode OTP berikut:</p>
+    <h2 class="code">{{token}}</h2>
+    <p>Gunakan kode OTP ini untuk memverifikasi email Anda.</p>
+    <p><strong>Jangan berikan kode ini kepada siapapun.</strong></p>
+    <p>Jika Anda tidak melakukan pendaftaran, Anda dapat mengabaikan email ini.</p>
+    <p class="footer">Salam hangat,</p>
+    <p class="footer">Deteksi Kemacetan Kendaraan di Jalan Raya By Reza Maulana Rizky</p>
+  </div>
+</body>
+</html>

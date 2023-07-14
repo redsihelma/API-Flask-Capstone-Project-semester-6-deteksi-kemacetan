@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-restx = "*"
+flask-sqlalchemy = "*"
+flask-cors = "*"
+pyjwt = "*"
+pyopenssl = "*"
+mysqlclient = "*"
+flask-mail = "*"
+python-dotenv = "*"
+tensorflow = "*"
+keras = "*"
+mysql-connector-python = "*"
+werkzeug = "*"
+datetime = "*"
+numpy = "*"
+mysql = "*"
+opencv-python = "*"
+opencv-python-headless = "*"
+dlask = "*"
+pillow = "*"
+matplotlib = "*"
+flask-restful = "*"
+jinja2 = "*"
+moviepy = "*"
+flask-jwt-extended = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9.12"
