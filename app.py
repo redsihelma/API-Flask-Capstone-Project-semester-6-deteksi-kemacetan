@@ -32,8 +32,6 @@ import tempfile
 app = Flask(__name__)  # Instantiation of Flask object.
 api = Api(app)        # Instantiation of Flask-RESTX object.
 CORS(app)
-# Path untuk menyimpan video
-UPLOAD_FOLDER = 'C:\\Users\\ASUS\\Downloads\\flask-deteksi-kemacetan\\upload'
 
 ############################
 ##### BEGIN: Database #####
@@ -48,7 +46,6 @@ app.config['MAIL_USERNAME'] = "redsihelma@gmail.com"
 app.config['MAIL_PASSWORD'] = "eqgvdirjjzumolyp"
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # Misalnya, 16MB
 # api.add_resource(PredictVideo, '/predict-video')
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 
 ALLOWED_EXTENSIONS = {'mp4', 'avi', 'mov'}
